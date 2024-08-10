@@ -1,0 +1,119 @@
+img {
+    max-width: 225px;
+    max-height: 225px;
+    width: auto;
+    height: auto;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b7b7b7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+}
+
+header div {
+    float: left;
+}
+
+header div.right {
+    float: right;
+}
+
+header a, footer p {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ccc;
+}
+
+html {
+    align-items: center;
+}
+
+.custom-pre {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.fan {
+    text-decoration: none; 
+    color: white;
+}
+
+.inda {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+
+.inda img {
+    transition: transform 0.3s ease;
+}
+
+.inda:hover img {
+    transform: scale(1.2);
+}
+
+.inda:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-25deg);
+    transition: left 0.7s ease;
+}
+
+.inda:hover:after {
+    left: 125%;
+}
+
+.inda:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
