@@ -1,5 +1,5 @@
-# CSC309-Web-Development
-This project was developed for my web development course at the university. This is an ecommerece website idea.
+# Apple Ecommerce
+This project was developed for my web development course at the university.
 The front-end consists of: HTML, CSS, & JAVASCRIPT.
 The back-end consists of: PHP & MySQL.
 
