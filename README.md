@@ -1,5 +1,5 @@
 # CSC309-Web-Development
-This project was developed by me for my web development course at the university.
+This project was developed for my web development course at the university.
 The front-end consists of: HTML, CSS, & JAVASCRIPT.
 The back-end consists of: PHP & MySQL.
 
